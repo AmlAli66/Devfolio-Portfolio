@@ -110,7 +110,7 @@ nav {
     border-radius: 0;
 }
 
-.dropdown-toggle-after {
+.arrow-bottom {
     border: solid rgb(255, 255, 255);
     border-width: 0px 0px 1.58px 1.58px;
     display: inline-block;
@@ -121,8 +121,19 @@ nav {
     vertical-align: super;
 }
 
-.dropdown-toggle::after {
+.dropdown .dropdown-toggle::after {
     display: none;
+}
+
+.arrow-rigt {
+    border: solid rgb(0, 0, 0);
+    border-width: 0px 1.58px 1.58px 0px;
+    display: inline-block;
+    padding: 3px;
+    margin-inline-start: 20px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    vertical-align: middle;
 }
 
 
